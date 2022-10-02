@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'org.sonarqube' version "$sonarqubeVersion"
     id 'jacoco'
+    id 'io.spring.dependency-management' version '1.0.1.RELEASE'
 }
 
 group 'org.lab4'
@@ -11,9 +12,17 @@ repositories {
     mavenCentral()
 }
 
+dependencyManagement {
+    imports {
+        mavenBom 'org.apache.logging.log4j:log4j-bom:2.19.0'
+    }
+}
+
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.apache.logging.log4j:log4j-api'
+    implementation 'org.apache.logging.log4j:log4j-core'
 }
 
 test {
