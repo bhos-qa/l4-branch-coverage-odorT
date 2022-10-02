@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eb59d11-2a67-4960-95ec-a5587fc9d994" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lab4/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lab4/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lab4/User.java" afterDir="false" />
+    <list default="true" id="3eb59d11-2a67-4960-95ec-a5587fc9d994" name="Changes" comment="added src">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lab4/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage.md" beforeDir="false" afterPath="$PROJECT_DIR$/coverage.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lab4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lab4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,7 +63,7 @@
       <recent name="C:\Users\kamran\university\sem7\qa\labs\lab4\l4-branch-coverage-odorT\src\test\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.UserTest.checkGetName">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.lab4.Main" />
       <module name="lab4.main" />
@@ -82,8 +77,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTest.checkGetName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.lab4.UserTest.checkGetName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserTest.checkGetName" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -97,8 +116,16 @@
       <option name="presentableId" value="Default" />
       <updated>1664709147021</updated>
       <workItem from="1664709148305" duration="788000" />
-      <workItem from="1664710007097" duration="4253000" />
+      <workItem from="1664710007097" duration="5167000" />
     </task>
+    <task id="LOCAL-00001" summary="added src">
+      <created>1664714548612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664714548612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,5 +141,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added src" />
+    <option name="LAST_COMMIT_MESSAGE" value="added src" />
   </component>
 </project>
