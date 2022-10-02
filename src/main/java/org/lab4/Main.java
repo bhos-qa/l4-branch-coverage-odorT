@@ -1,5 +1,6 @@
 package org.lab4;
 
+import java.io.File;
 import java.io.IOException;
 
 public class Main {
@@ -15,7 +16,10 @@ public class Main {
         System.out.println(kamran.getRole());
     }
 
-    void vulnerableCode(String cmd, String arg) throws IOException {
-        Runtime.getRuntime().exec(cmd + " " + arg);
+    void vulnerableCode() throws IOException {
+        File tempDir;
+        tempDir = File.createTempFile("", ".");
+        tempDir.delete();
+        tempDir.mkdir();
     }
 }
